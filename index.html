@@ -1,6 +1,10 @@
 <style>
     .link{
         color: rgb(0,113,133);
+        transition:color .15s;
+    }
+    .link:hover{
+        color:rgb(252, 38, 38);
     }
     .title{
         font-weight: bold;
@@ -17,6 +21,15 @@
         height: 36px;
         width: 120px;
         border: none;
+        transition:opacity 0.3s ;
+    }
+    .add:hover{
+        opacity:.9;
+        
+    }
+    .add:active{
+        opacity:.5;
+        
     }
     .buy{
         background-color: rgb(255,164,28);
@@ -26,6 +39,15 @@
         width: 120px;
         border: none;
         margin-left: 10px;
+        transition: opacity 0.3s;
+    }
+     .buy:hover{
+        opacity:.9;
+        
+    }
+    .buy:active{
+        opacity:.5;
+        
     }
 </style>
 <a class="link" target="_blank" href="https://www.amazon.in/NIKE-AIR-MAX-NUAXIS-BLACK-BLACK-ANTHRACITE-FD4329-004-6UK/dp/B0D93VZ18F/ref=sr_1_2?crid=3JVFA6R27HS0Y&dib=eyJ2IjoiMSJ9.G9w6C0NcwZoKsCD3_Cd_cdsJemh5DfMWhKyM9iySCAmtmALlaJkzt4kE-kmnUV8U04QpfCIdkJt2afmwbzvEYzVningccBVIiEDIAU2agN_H3mVkTDIFASF-Lc-aBFcuva1q_oOwYkggPx6jORf0wJ5MKxWXrJAchphscce9uGOJHGU2R9iNXA4T-x8_EH2_HOogHXrJKbQDtVy7L1MoWltnfi5vUkbo9DOoQJCvIK6iiBiU28REBi7Ykzr5-eRlhCW7jmNtjJ6cU2CBrWYE7xhkCLaACjzBZot2g4HPYgI.hr5h8B4JvWcBo6m0ioitGglYOtrEODPnp3_lXox9llo&dib_tag=se&keywords=nike+black+running+shoes&qid=1764258175&sprefix=nike+black+running%2Caps%2C337&sr=8-2">Back to Amazon</a>
@@ -33,5 +55,4 @@
 <p class="price">$39 - in stock.</p>
 <p>Free delivery tomorrow</p>;
 <button class="add">Add to Cart</button>
-
 <button class="buy">Buy now</button>
